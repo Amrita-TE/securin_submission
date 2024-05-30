@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVE List</title>
+    <link rel="stylesheet" href="styles5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CVE LIST</h1>
+        <p>Total Records: <span id="total-records"></span></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>CVE ID</th>
+                    <th>IDENTIFIER</th>
+                    <th>PUBLISHED DATE</th>
+                    <th>LAST MODIFIED DATE</th>
+                    <th>STATUS</th>
+                </tr>
+            </thead>
+            <tbody id="cve-table-body">
+                <!-- Data will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+        <div class="pagination">
+            <button id="prev-page" disabled>&lt;</button>
+            <span id="page-info">1</span>
+            <button id="next-page">&gt;</button>
+        </div>
+    </div>
+    <script src="scripts5.js"></script>
+</body>
+</html>
